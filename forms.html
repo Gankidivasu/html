@@ -1,0 +1,95 @@
+<html>
+<form action = "http://www.example.com/subscribe.php"method = "get">
+<div>
+<p> 
+Username: <input type = "text" name ="username" maxlength ="30"/>
+ </p>
+ <p>
+password: <input type = "password" name ="password" maxlength ="30"/>
+</p>
+</div>
+<div>
+<p>
+select your gender : 
+<input type = "radio" name = "genre" value ="male" checked = "checked" /> male
+<input type = "radio" name = "genre" value = "female" /> female
+<input type = "radio" name = "genre" value = "no disclosure" /> no disclosure
+</p>
+</div>
+<p>
+select your worklocation preference: 
+<input type = "checkbox" name = "locationpreference" value = "USA" /> USA
+<input type = "checkbox" name = "locationpreference" value = "INDIA" /> INDIA
+<input type = "checkbox" name = "locationpreference" value = "UAE" /> UAE
+ </p>
+ 
+ <p>which states in us ? </p>
+ <select name = "state choice" size = "6" multiple = "multiple">
+<option value = "texas">texas</option>
+<option value = "california">california</option>
+<option value = "california">oregon</option> 
+ <option value = "california">florida</option>
+ <option value = "california">newyork</option>
+ </select>
+ </p>
+ 
+<p>
+<fieldset width = "100" height = "500">
+<legend> Contact details </legend>
+
+<label>Email:<br/> </label>
+<input type = "text" name = "email" />
+<br />
+
+<label>Mobile:<br/>
+<input type = "text" name = "number" />
+</label>
+<br />
+
+<label>Telephone:<br/> </label>
+<input type = "text" name = "telephonenumber" />
+<br />
+
+</fieldset>
+</p>
+
+<!--file input box-->
+<p> upload your resume in pdf,docx,doc format </p>
+<input type = "file" name ="user-song" /> <br/>
+<input type = "submit" value = "Upload" /> 
+</p>
+
+<p>
+
+<input type = "text" name = "emialid" />
+<input type = "submit" value = "confirmid" />
+<!-- input type = "image" in above line makes the button in image format -->
+
+</p> 
+<p> 
+about yourself  
+<br />
+ <textarea name="comments" cols="30" rows="6" >
+ enter your comments
+ </textarea>
+ </p>
+
+ 
+ </form>
+ 
+ <form action = "http://www.example.com/bookings/" method ="post">
+ 
+ <label for = "todaysdate"> Todays date: </label>
+<input type = "date" name="depart"/> 
+<br />
+<label for = "email">  enter your email id
+<input type = "email" name = "emailid"/>
+<input type = "submit" name = "submit" value = "submit" />
+<br />
+<label for = "webadress">  enter your web page adress
+<input type = "webadress" name = "webadress"/>
+
+</label>
+
+</form>
+</html>
